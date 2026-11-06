@@ -28,9 +28,4 @@ tinylink:
     interval-minutes: 1
     expired-urls-batch-size: 100
 
-logging:
-  level:
-    com.shahbytes.tinylink: DEBUG
-    org.springframework.data.redis: DEBUG
-  pattern:
-    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+#http://localhost:8081/swagger-ui/index.html
