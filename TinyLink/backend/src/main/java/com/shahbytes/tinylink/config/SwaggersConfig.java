@@ -1,5 +1,7 @@
 package com.shahbytes.tinylink.config;
 
+
+
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.info.Info;
 import org.springframework.context.annotation.Configuration;
@@ -13,5 +15,6 @@ import org.springframework.context.annotation.Configuration;
                 termsOfService = "http://example.com/terms"
         )
 )
-public class SwaggerConfig {
+public class SwaggersConfig {
 }
+
